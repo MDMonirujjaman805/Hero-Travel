@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+body{
+  font-family: "Mulish";
+}
+/* default styles */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 90%;
+  margin: 5rem auto;
+  border-radius: 1rem;
+}
+h3{
+  font-size: 2.25rem;
+  text-align: center;
+  font-weight: 800;
+  line-height: normal;
+}
+.colorfull-text{
+  color: rgb(255, 84, 0);
+}
+p,li{
+  font-size: 1.12rem;
+  font-weight: normal;
+  line-height: normal;
+  text-align: center;
+}
+/* navbar */
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.logo{
+  display: flex;
+  align-items: center;
+  width: 280px;
+  /* border: 2px solid green; */
+}
+.logo img {
+  width: 48px;
+  height: 56px;
+  margin-right: 0.5rem;
+}
+.logo-option{
+  display: flex;
+  /* border: 2px solid green; */
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+.logo-option p {
+  cursor: pointer;
+}
+/* banner */
+.container-explore-your-travel{
+  background-image: linear-gradient(180deg,rgba(19, 19, 24, 0.8) 0%,
+  rgba(19, 19, 24, 0) 100%), 
+  url(../Images/Banner.png);
+  padding: 7rem 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  border-radius: 1rem;
+
+  width: 90%;
+  margin: 0 auto;
+}
+.explore-container h3{
+  color: white;
+  font-size: 4rem;
+  font-weight: 800;
+  /* border: 2px solid yellow; */
+}
+.explore-container p{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 676px;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin: auto;
+}
+.travel-input{
+  /* border: 2px solid yellow; */
+  margin-top: 2rem;
+  border-radius: 8px;
+  background-color:rgba(255, 255, 255,0.21);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  backdrop-filter: blur(4px);
+}
+input,select{
+  width: 175px;
+  height: 52px;
+  border-radius: 8px;
+  color: (255, 255, 255);
+  padding: 0 0.5rem;
+  margin: 0 1rem;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  /* justify-content: space-around; */
+}
+.btn-primary{
+  border-radius: 8px;
+  background-color: rgb(255, 84, 0);
+  width: 175px;
+  height: 52px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  border: none;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.fa-solid-fa-magnifying-glass{
+  width: 180px;
+  height: 180px;
+  border: 2px solid black;
+}
